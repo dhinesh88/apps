@@ -1,4 +1,4 @@
-name: Flood dns attack
+name: Flood dns
 
 version: 0.0.2
 
@@ -6,7 +6,7 @@ author: trisul
 
 
 description: 
-   short: Flood dns attack
+   short: Monitor performance of Trisul Probe
    long:  |
       Dashboard show CPU usage, memory usage, packet drops,
       I/O stats for PCAP storage, Disk Bandwidth for PCAPs,
