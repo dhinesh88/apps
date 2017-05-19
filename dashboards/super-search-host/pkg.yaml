@@ -1,0 +1,19 @@
+name: Super search host
+
+version: 0.0.2
+
+author: trisul
+
+
+description: 
+   short: Search all hosts by name and print total usage of each.
+   long:  |
+      Search google.com
+      It will give all google.com ips seen by trisul  
+
+
+apptype: dashboard_js
+
+appresources: search_hosts.js
+
+dependencies: 
