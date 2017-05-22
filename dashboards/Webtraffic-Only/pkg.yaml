@@ -1,0 +1,19 @@
+name: Webtraffic APPS
+
+version: 0.0.2
+
+author: trisul
+
+
+description: 
+   short: Monitor webtraffic
+   long:  |
+      Created filter keyset cg  
+      Dashboard for that filter cg
+
+
+apptype: dashboard_share
+
+appresources: dashboard.json cg.json
+
+dependencies : 
