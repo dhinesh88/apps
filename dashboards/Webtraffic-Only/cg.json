@@ -1,5 +1,19 @@
 [
   {
+    "id": 1,
+    "CounterGUID": "{90D69824-2DEC-A44C-9F05-D0809B327229}",
+    "ParentCounterGUID": "{C51B48D4-7876-479E-B0D9-BD9EFF03CE2E}",
+    "type": "TrisulCounterGroupKeyset"
+  },
+  {
+    "id": 1,
+    "trisul_counter_group_keyset_id": 1,
+    "KeysetKey": "Wtraffic",
+    "KeyFrom": "p-0050,p-01BB",
+    "KeyTo": null,
+    "type": "TrisulCounterGroupKeysetKey"
+  },
+  {
     "id": 66,
     "CounterGUID": "{90D69824-2DEC-A44C-9F05-D0809B327229}",
     "Name": "Web traffic",
@@ -17,19 +31,5 @@
     "CreateTimestamp": null,
     "ModifyTimestamp": 1495432430,
     "type": "TrisulCounterGroup"
-  },
-  {
-    "id": 1,
-    "CounterGUID": "{90D69824-2DEC-A44C-9F05-D0809B327229}",
-    "ParentCounterGUID": "{C51B48D4-7876-479E-B0D9-BD9EFF03CE2E}",
-    "type": "TrisulCounterGroupKeyset"
-  },
-  {
-    "id": 1,
-    "trisul_counter_group_keyset_id": 1,
-    "KeysetKey": "Wtraffic",
-    "KeyFrom": "p-0050,p-01BB",
-    "KeyTo": null,
-    "type": "TrisulCounterGroupKeysetKey"
   }
 ]
