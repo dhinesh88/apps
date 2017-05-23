@@ -1,35 +1,47 @@
-[
-  {
-    "id": 1,
-    "CounterGUID": "{90D69824-2DEC-A44C-9F05-D0809B327229}",
-    "ParentCounterGUID": "{C51B48D4-7876-479E-B0D9-BD9EFF03CE2E}",
-    "type": "TrisulCounterGroupKeyset"
-  },
-  {
-    "id": 1,
-    "trisul_counter_group_keyset_id": 1,
-    "KeysetKey": "Wtraffic",
-    "KeyFrom": "p-0050,p-01BB",
-    "KeyTo": null,
-    "type": "TrisulCounterGroupKeysetKey"
-  },
-  {
-    "id": 66,
-    "CounterGUID": "{90D69824-2DEC-A44C-9F05-D0809B327229}",
-    "Name": "Web traffic",
-    "Description": "Web traff",
-    "TopNCommitIntervalSecs": 300,
-    "BucketSizeMS": 60000,
-    "TrackHiWater": 500,
-    "TrackLoWater": 100,
-    "TailPruneFactor": null,
-    "LastTopperBucketTS": null,
-    "RowStatus": "Active",
-    "CardinalityEstimateBits": null,
-    "TopperTrafficOnly": null,
-    "EnableSliceKeys": null,
-    "CreateTimestamp": null,
-    "ModifyTimestamp": 1495432430,
-    "type": "TrisulCounterGroup"
-  }
-]
+{
+  "TrisulCounterGroupKeyset": [
+    [
+      {
+        "id": 4,
+        "CounterGUID": "{EA23FF8C-D0A3-8A0E-F9C2-1FCCB680594E}",
+        "ParentCounterGUID": "{C51B48D4-7876-479E-B0D9-BD9EFF03CE2E}"
+      }
+    ],
+    [
+      {
+        "id": 2,
+        "trisul_counter_group_keyset_id": 4,
+        "KeysetKey": "webtrffic",
+        "KeyFrom": "p-0050,p-01BB",
+        "KeyTo": null
+      },
+      {
+        "id": 3,
+        "trisul_counter_group_keyset_id": 4,
+        "KeysetKey": "ssh",
+        "KeyFrom": "p-0016",
+        "KeyTo": null
+      }
+    ],
+    [
+      {
+        "id": 71,
+        "CounterGUID": "{EA23FF8C-D0A3-8A0E-F9C2-1FCCB680594E}",
+        "Name": "Web traffic",
+        "Description": "sds",
+        "TopNCommitIntervalSecs": 300,
+        "BucketSizeMS": 60000,
+        "TrackHiWater": 500,
+        "TrackLoWater": 100,
+        "TailPruneFactor": null,
+        "LastTopperBucketTS": null,
+        "RowStatus": "Active",
+        "CardinalityEstimateBits": null,
+        "TopperTrafficOnly": null,
+        "EnableSliceKeys": null,
+        "CreateTimestamp": null,
+        "ModifyTimestamp": 1495456484
+      }
+    ]
+  ]
+}
