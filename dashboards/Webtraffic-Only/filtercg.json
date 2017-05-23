@@ -1,0 +1,34 @@
+{
+  "TrisulCounterGroupFilter": [
+    [
+      {
+        "id": 23,
+        "CounterGUID": "{7DE958F1-37EB-C007-1FF3-0959D0857A8D}",
+        "ParentCounterGUID": "{C51B48D4-7876-479E-B0D9-BD9EFF03CE2E}",
+        "FilterCounterGUID": "{C0B04CA7-95FA-44EF-8475-3835F3314761}",
+        "FilterKeyList": "0A.25.05.A6_000B",
+        "FilterKeyInvList": null
+      }
+    ],
+    [
+      {
+        "id": 65,
+        "CounterGUID": "{7DE958F1-37EB-C007-1FF3-0959D0857A8D}",
+        "Name": "IFTRACK_Apps_10.37.5.166_11",
+        "Description": "Automatically added by Netflow Interface Tracker",
+        "TopNCommitIntervalSecs": 300,
+        "BucketSizeMS": 60000,
+        "TrackHiWater": 100000,
+        "TrackLoWater": 100,
+        "TailPruneFactor": null,
+        "LastTopperBucketTS": null,
+        "RowStatus": "Active",
+        "CardinalityEstimateBits": null,
+        "TopperTrafficOnly": null,
+        "EnableSliceKeys": null,
+        "CreateTimestamp": null,
+        "ModifyTimestamp": 1495199981
+      }
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "TrisulCounterGroupStatval": [
+    [
+      {
+        "id": 3,
+        "CounterGUID": "{53C3E808-6BC1-D2DD-4329-D2DCE0DE64D1}",
+        "ParentCounterGUID": "{03E016FC-46AA-4340-90FC-0E278B93C677}",
+        "StatID": 0,
+        "Operator": "&gt;",
+        "StatVal": 0
+      }
+    ],
+    [
+      {
+        "id": 72,
+        "CounterGUID": "{53C3E808-6BC1-D2DD-4329-D2DCE0DE64D1}",
+        "Name": "Statbased1",
+        "Description": "stabase",
+        "TopNCommitIntervalSecs": 300,
+        "BucketSizeMS": 60000,
+        "TrackHiWater": 500,
+        "TrackLoWater": 100,
+        "TailPruneFactor": null,
+        "LastTopperBucketTS": null,
+        "RowStatus": "Active",
+        "CardinalityEstimateBits": null,
+        "TopperTrafficOnly": null,
+        "EnableSliceKeys": null,
+        "CreateTimestamp": null,
+        "ModifyTimestamp": 1495530663
+      }
+    ]
+  ]
+}
