@@ -1,0 +1,39 @@
+{
+  "TrisulCounterGroupRuleset": [
+    [
+      {
+        "id": 1,
+        "CounterGUID": "{FF889910-9293-AAA5-0028-883991889884}",
+        "ParentCounterGUID": "{C51B48D4-7876-479e-B0D9-BD9EFF03CE2E}"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "trisul_counter_group_ruleset_id": 1,
+        "TargetKey": "Web Work",
+        "TargetRule": "{4CD742B1-C1CA-4708-BE78-0FCA2EB01A86}=80.79.32.7A&amp;{C51B48D4-7876-479e-B0D9-BD9EFF03CE2E}=p-0050"
+      }
+    ],
+    [
+      {
+        "id": 7,
+        "CounterGUID": "{FF889910-9293-AAA5-0028-883991889884}",
+        "Name": "Unleash Apps",
+        "Description": "Demo of Rule based counter group, count your enterprise apps",
+        "TopNCommitIntervalSecs": 180,
+        "BucketSizeMS": 60000,
+        "TrackHiWater": 10000,
+        "TrackLoWater": 1000,
+        "TailPruneFactor": 21,
+        "LastTopperBucketTS": null,
+        "RowStatus": "Active",
+        "CardinalityEstimateBits": "10",
+        "TopperTrafficOnly": "False",
+        "EnableSliceKeys": 1,
+        "CreateTimestamp": 0,
+        "ModifyTimestamp": 1495002713
+      }
+    ]
+  ]
+}
