@@ -2,37 +2,43 @@
   "TrisulCounterGroupRuleset": [
     [
       {
-        "id": 1,
-        "CounterGUID": "{FF889910-9293-AAA5-0028-883991889884}",
-        "ParentCounterGUID": "{C51B48D4-7876-479e-B0D9-BD9EFF03CE2E}"
+        "id": 2,
+        "CounterGUID": "{81CDD081-91C6-36E9-B7B4-260EDD471D25}",
+        "ParentCounterGUID": "{C51B48D4-7876-479E-B0D9-BD9EFF03CE2E}"
       }
     ],
     [
       {
-        "id": 1,
-        "trisul_counter_group_ruleset_id": 1,
-        "TargetKey": "Web Work",
-        "TargetRule": "{4CD742B1-C1CA-4708-BE78-0FCA2EB01A86}=80.79.32.7A&amp;{C51B48D4-7876-479e-B0D9-BD9EFF03CE2E}=p-0050"
+        "id": 2,
+        "trisul_counter_group_ruleset_id": 2,
+        "TargetKey": "whttp",
+        "TargetRule": "{C51B48D4-7876-479E-B0D9-BD9EFF03CE2E}=p-0050"
+      },
+      {
+        "id": 3,
+        "trisul_counter_group_ruleset_id": 2,
+        "TargetKey": "whttps",
+        "TargetRule": "{C51B48D4-7876-479E-B0D9-BD9EFF03CE2E}=p-01BB"
       }
     ],
     [
       {
-        "id": 7,
-        "CounterGUID": "{FF889910-9293-AAA5-0028-883991889884}",
-        "Name": "Unleash Apps",
-        "Description": "Demo of Rule based counter group, count your enterprise apps",
-        "TopNCommitIntervalSecs": 180,
+        "id": 73,
+        "CounterGUID": "{81CDD081-91C6-36E9-B7B4-260EDD471D25}",
+        "Name": "New Rule based",
+        "Description": "New rule based",
+        "TopNCommitIntervalSecs": 300,
         "BucketSizeMS": 60000,
-        "TrackHiWater": 10000,
-        "TrackLoWater": 1000,
-        "TailPruneFactor": 21,
+        "TrackHiWater": 500,
+        "TrackLoWater": 100,
+        "TailPruneFactor": null,
         "LastTopperBucketTS": null,
         "RowStatus": "Active",
-        "CardinalityEstimateBits": "10",
-        "TopperTrafficOnly": "False",
-        "EnableSliceKeys": 1,
-        "CreateTimestamp": 0,
-        "ModifyTimestamp": 1495002713
+        "CardinalityEstimateBits": null,
+        "TopperTrafficOnly": null,
+        "EnableSliceKeys": null,
+        "CreateTimestamp": null,
+        "ModifyTimestamp": 1495532363
       }
     ]
   ]
