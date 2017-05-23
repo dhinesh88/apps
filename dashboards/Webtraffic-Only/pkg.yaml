@@ -14,6 +14,6 @@ description:
 
 apptype: dashboard_share
 
-appresources: cardinality.json filtercg.json keyset_cg.json ruleset_cg.json statbased.json 
+appresources: cardinality.json filtercg.json keyset_cg.json ruleset_cg.json statbased.json  dashboards.json
 
 dependencies : 
