@@ -1,0 +1,18 @@
+{
+  "TrisulSessTrackerPolicie": [
+    [
+      {
+        "id": 1,
+        "TrackerCLSID": "{00000000-0000-0000-0000-000000000001}",
+        "SessionGroupID": "{99A78737-4B41-4387-8F31-8077DB917336}",
+        "TrackerName": "Traffic",
+        "CommitIntervalSecs": 300,
+        "Count": 100,
+        "ConfigString": "",
+        "RowStatus": "Active",
+        "CreateTimestamp": 0,
+        "ModifyTimestamp": 0
+      }
+    ]
+  ]
+}
